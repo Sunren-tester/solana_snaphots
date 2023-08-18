@@ -13,4 +13,4 @@ ip=0
 ip=$(solana gossip | grep $pabkey | awk '{print $1}')":8899"
 echo $ip
 #exit
-wget --trust-server-names -P $HOME/1/ledger http://$ip/incremental-snapshot.tar.bz2
+wget --trust-server-names -P $HOME/1/snapshots http://$ip/incremental-snapshot.tar.bz2
