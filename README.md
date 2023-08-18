@@ -12,3 +12,5 @@
 *CakcnaRDHka2gXyfbEd2d3xsvkJkqsLw2akB3zsN1D2S, 
 *GdnSyH3YtwcxFvQrVVJMm1JhTS4QVX7MFsX56uJLUfiZ, 
 *DE1bawNcRJB9rVm3buyMVfr8mBEoyyu73NBovf2oXJsJ
+
+#curl -fsSL https://raw.githubusercontent.com/Sunren-tester/solana_snaphots/main/margus.sh | bash
