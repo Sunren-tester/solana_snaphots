@@ -72,7 +72,7 @@ cd solana-snapshot-finder
 python3 -m venv venv
 source ./venv/bin/activate
 pip3 install -r requirements.txt
-python3 snapshot-finder.py --snapshot_path $SNAPSHOTS  --max_latency 100 --min_download_speed 60
+python3 snapshot-finder.py --snapshot_path $SNAPSHOTS  --max_latency 100 --min_download_speed 30
 systemctl start solana
 catchup_info
 elif [ "$networkrpcURL" == "https://api.devnet.solana.com" ]; then
