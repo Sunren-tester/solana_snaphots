@@ -37,7 +37,7 @@ if [ "$LEDGER" == "" ]; then LEDGER=/home/sunren/solana/ledger
 fi
 
 if [ -f $service_file ]; then
-systemctl stop solana
+sudo systemctl stop solana
 
 if [ "$SNAPSHOTS" == "" ]; then 
     SNAPSHOTS=$LEDGER
@@ -83,7 +83,7 @@ curl -fsSL https://raw.githubusercontent.com/Sunren-tester/solana_snaphots/main/
 exit 0
 fi
 
-systemctl start solana
+sudo systemctl start solana
 catchup_info
 
 else
