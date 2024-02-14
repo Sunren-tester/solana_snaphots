@@ -79,7 +79,7 @@ elif [ ${IP:0:10} == "195.18.27." ];then
 wget --trust-server-names http://91.211.83.222/snapshot.tar.bz2 && wget --trust-server-names http://91.211.83.222/incremental-snapshot.tar.bz2
 #wget --trust-server-names https://api.mainnet-beta.mmg.ink/snapshot.tar.bz2 && wget --trust-server-names https://api.mainnet-beta.mmg.ink/incremental-snapshot.tar.bz2
 else
-curl -fsSL https://raw.githubusercontent.com/Sunren-tester/solana_snaphots/main/finder.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Sunren-tester/solana_snaphots/main/finder_test.sh | bash
 exit 0
 fi
 
