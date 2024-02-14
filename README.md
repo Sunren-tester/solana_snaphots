@@ -20,3 +20,7 @@
 #MARGUS script
 
 #curl -fsSL https://raw.githubusercontent.com/Sunren-tester/solana_snaphots/main/margus.sh | bash
+
+#TESTNET script
+
+#curl -fsSL https://raw.githubusercontent.com/Sunren-tester/solana_snaphots/main/testnet.sh | bash
