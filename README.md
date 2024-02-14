@@ -17,7 +17,7 @@
 *DE1bawNcRJB9rVm3buyMVfr8mBEoyyu73NBovf2oXJsJ
 
 
-#MARGUS script
+#MAINNET script
 
 #curl -fsSL https://raw.githubusercontent.com/Sunren-tester/solana_snaphots/main/margus.sh | bash
 
